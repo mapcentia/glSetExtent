@@ -135,7 +135,7 @@ module.exports = module.exports = {
 
                                         <div className="form-group">
                                             <div className="form-control-wrapper">
-                                                <label htmlFor="extent">OWF Name</label>
+                                                <label htmlFor="extent">By/Bygd</label>
                                                 <select id="glsetextent-select" name="glsetextent-select" className="form-control" required>
                                                     <option> </option>
                                                     {

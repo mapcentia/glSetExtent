@@ -39,6 +39,7 @@ var clicktimer;
 
 /**
  *
+ * hej
  * @returns {*}
  */
 module.exports = {
@@ -49,8 +50,17 @@ module.exports = {
         return this;
     },
     init: function () {
+        $(document).arrive("#glsetextent-select", function () {
+            $(this).on("change", function (e) {
 
+                glSetExtent.zoomTo($("#glsetextent-select").val());
 
+                return false;
+
+            });
+        });
     }
 };
+
+
 

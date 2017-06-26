@@ -135,7 +135,7 @@ module.exports = module.exports = {
 
                                         <div className="form-group">
                                             <div className="form-control-wrapper">
-                                                <label htmlFor="extent">By/Bygd</label>
+                                                <label htmlFor="extent">By/bygd</label>
                                                 <select id="glsetextent-select" name="glsetextent-select" className="form-control" required>
                                                     <option> </option>
                                                     {
@@ -158,7 +158,7 @@ module.exports = module.exports = {
             }
         }
 
-        utils.createMainTab(exId, "Zoom til område", "......", require('./../../height')().max);
+        utils.createMainTab(exId, "Zoom til By", "Zoom til en By/bygd ved at vælge navnet på listen.", require('./../../height')().max);
 
     },
 
